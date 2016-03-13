@@ -1,0 +1,46 @@
+{
+  "name": "fightpass-crawler",
+  "version": "0.0.1",
+  "description": "A crawler to grab FightPass details",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crimsonronin/fightpass-crawler.git"
+  },
+  "author": "Josh Stuart <joshstuartx@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crimsonronin/fightpass-crawler/issues"
+  },
+  "homepage": "https://github.com/crimsonronin/fightpass-crawler",
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": ["transform-async-to-generator"]
+  },
+  "scripts": {
+    "start": "babel-node server.js"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "lodash": "^4.5.1",
+    "mongoose": "^4.4.5",
+    "q": "^1.4.1",
+    "request-promise": "^2.0.1",
+    "winston": "^2.2.0",
+    "xml2js": "^0.4.16"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-eslint": "^5.0.0-beta9",
+    "babel-plugin-transform-async-to-generator": "^6.7.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "eslint": "^1.10.3",
+    "eslint-config-etaskr": "^1.0.2",
+    "istanbul": "^1.0.0-alpha",
+    "mocha": "^2.3.4",
+    "should": "^6.0.1"
+  }
+}
