@@ -3,5 +3,12 @@
  */
 
 export default {
-    track: true
+    robotsUrl: 'http://www.ufc.tv/service/videoindex?ps=100',
+    logger: {
+        prefix: 'test -',
+        transports: [
+            'Console'
+        ],
+        Console: {}
+    }
 };

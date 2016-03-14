@@ -2,11 +2,11 @@
  * @author Josh Stuart <joshstuartx@gmail.com>
  */
 
-import RobotsCrawler from './lib/robots-crawler';
+import FightPassCrawler from './lib/fightpass-crawler';
 
-const crawlerService = new RobotsCrawler('http://www.ufc.tv/service/videoindex?ps=100');
+const fightPassCrawler = new FightPassCrawler('http://www.ufc.tv/service/videoindex?ps=100');
 
-crawlerService.start().
+fightPassCrawler.start().
 then(()=> {
     process.exit(0);
 });

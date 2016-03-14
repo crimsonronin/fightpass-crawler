@@ -1,0 +1,292 @@
+<html>
+<head>
+    <title>Pre-Fight</title>
+    <meta charset="utf-8">
+    <link href="styles/fight.css" rel="stylesheet" type="text/css">
+    <script src="scripts/jquery-1.6.2.min.js"></script>
+    <script src="scripts/config.js"></script>
+    <script src="scripts/fight.js"></script>
+    <script>
+        var pageName = 'statsprefight';
+    </script>
+</head>
+<body onload="initStatsPage(preFightPrefix);">
+<iframe id="hiddenIframe"
+        src="http://www.ufc.tv/ufc/iframes/hidden.html?action=changeheight&amp;value=statsprefight|1078"
+        style="display: none;"></iframe>
+
+<table id="tbl_285414" class="tblData" cellpadding="0" cellspacing="0">
+    <tbody>
+    <tr class="tblLabel">
+        <td colspan="10">
+            <div class="label over" id="tbl_285414_label"><a href="javascript:callSeekToFight(4);">WATCH THIS FIGHT</a>
+            </div>
+        </td>
+    </tr>
+    <tr class="tblHeader">
+        <th class="lblEmpty">&nbsp;</th>
+        <th class="lblName">FIGHTERS</th>
+        <th class="lblslpm">SLpM</th>
+        <th class="lblstracc">STR.ACC.</th>
+        <th class="lblsapm">SApM</th>
+        <th class="lblstrdef">STR.DEF.</th>
+        <th class="lbltdavg">TD AVG.</th>
+        <th class="lbltdacc">TD ACC.</th>
+        <th class="lbltddef">TD DEF.</th>
+        <th class="lblsubavg">SUB.AVG.</th>
+    </tr>
+    <tr class="tblContent">
+        <td class="image"><a href="http://www.ufc.com/fighter/Jose-Aldo" target="_blank" class="playerThumb"
+                             style="background: url(http://media.ufc.tv/generated_images_sorted/Fighter/Jose-Aldo//Jose-Aldo_911_small_thumbnail.png) -1px -1px no-repeat;"></a>
+        </td>
+        <td><a href="http://www.ufc.com/fighter/Jose-Aldo" target="_blank"
+               class="name"><span>Jose</span><span>Aldo</span></a>
+            <div class="score"><span id="tbl_285414_wld_red">25-1-0</span>(W-L-D)</div>
+        </td>
+        <td id="tbl_285414_slpm_red">3.29</td>
+        <td id="tbl_285414_stracc_red">44%</td>
+        <td id="tbl_285414_sapm_red">1.94</td>
+        <td id="tbl_285414_strdef_red" class="hl">72%</td>
+        <td id="tbl_285414_tdavg_red">0.93</td>
+        <td id="tbl_285414_tdacc_red">72%</td>
+        <td id="tbl_285414_tddef_red" class="hl">91%</td>
+        <td id="tbl_285414_subavg_red" class="hl">0.21</td>
+    </tr>
+    <tr class="tblContent">
+        <td class="image"><a href="http://www.ufc.com/fighter/Conor-McGregor" target="_blank" class="playerThumb"
+                             style="background: url(http://media.ufc.tv/generated_images_sorted/Fighter/Conor-McGregor//Conor-McGregor_302601_small_thumbnail.png) -1px -1px no-repeat;"></a>
+        </td>
+        <td><a href="http://www.ufc.com/fighter/Conor-McGregor" target="_blank" class="name"><span>Conor</span><span>McGregor</span></a>
+            <div class="score"><span id="tbl_285414_wld_blue">18-2-0</span>(W-L-D)</div>
+        </td>
+        <td id="tbl_285414_slpm_blue" class="hl">5.44</td>
+        <td id="tbl_285414_stracc_blue" class="hl">44%</td>
+        <td id="tbl_285414_sapm_blue" class="hl">3.01</td>
+        <td id="tbl_285414_strdef_blue">64%</td>
+        <td id="tbl_285414_tdavg_blue" class="hl">1.93</td>
+        <td id="tbl_285414_tdacc_blue" class="hl">83%</td>
+        <td id="tbl_285414_tddef_blue">67%</td>
+        <td id="tbl_285414_subavg_blue">0</td>
+    </tr>
+    </tbody>
+</table>
+<table id="tbl_285421" class="tblData" cellpadding="0" cellspacing="0">
+    <tbody>
+    <tr class="tblLabel">
+        <td colspan="10">
+            <div class="label over" id="tbl_285421_label"><a href="javascript:callSeekToFight(3);">WATCH THIS FIGHT</a>
+            </div>
+        </td>
+    </tr>
+    <tr class="tblHeader">
+        <th class="lblEmpty">&nbsp;</th>
+        <th class="lblName">FIGHTERS</th>
+        <th class="lblslpm">SLpM</th>
+        <th class="lblstracc">STR.ACC.</th>
+        <th class="lblsapm">SApM</th>
+        <th class="lblstrdef">STR.DEF.</th>
+        <th class="lbltdavg">TD AVG.</th>
+        <th class="lbltdacc">TD ACC.</th>
+        <th class="lbltddef">TD DEF.</th>
+        <th class="lblsubavg">SUB.AVG.</th>
+    </tr>
+    <tr class="tblContent">
+        <td class="image"><a href="http://www.ufc.com/fighter/Chris-Weidman" target="_blank" class="playerThumb"
+                             style="background: url(http://media.ufc.tv/generated_images_sorted/Fighter/Chris-Weidman//Chris-Weidman_118846_small_thumbnail.png) -1px -1px no-repeat;"></a>
+        </td>
+        <td><a href="http://www.ufc.com/fighter/Chris-Weidman" target="_blank" class="name"><span>Chris</span><span>Weidman</span></a>
+            <div class="score"><span id="tbl_285421_wld_red">13-0-0</span>(W-L-D)</div>
+        </td>
+        <td id="tbl_285421_slpm_red">3.43</td>
+        <td id="tbl_285421_stracc_red" class="hl">43%</td>
+        <td id="tbl_285421_sapm_red" class="hl">2.18</td>
+        <td id="tbl_285421_strdef_red">62%</td>
+        <td id="tbl_285421_tdavg_red" class="hl">3.75</td>
+        <td id="tbl_285421_tdacc_red" class="hl">57%</td>
+        <td id="tbl_285421_tddef_red" class="hl">100%</td>
+        <td id="tbl_285421_subavg_red">1.25</td>
+    </tr>
+    <tr class="tblContent">
+        <td class="image"><a href="http://www.ufc.com/fighter/Luke-Rockhold" target="_blank" class="playerThumb"
+                             style="background: url(http://media.ufc.tv/generated_images_sorted/Fighter/Luke-Rockhold//Luke-Rockhold_241886_small_thumbnail.png) -1px -1px no-repeat;"></a>
+        </td>
+        <td><a href="http://www.ufc.com/fighter/Luke-Rockhold" target="_blank" class="name"><span>Luke</span><span>Rockhold</span></a>
+            <div class="score"><span id="tbl_285421_wld_blue">14-2-0</span>(W-L-D)</div>
+        </td>
+        <td id="tbl_285421_slpm_blue" class="hl">3.55</td>
+        <td id="tbl_285421_stracc_blue">43%</td>
+        <td id="tbl_285421_sapm_blue">1.85</td>
+        <td id="tbl_285421_strdef_blue" class="hl">65%</td>
+        <td id="tbl_285421_tdavg_blue">0.35</td>
+        <td id="tbl_285421_tdacc_blue">33%</td>
+        <td id="tbl_285421_tddef_blue">72%</td>
+        <td id="tbl_285421_subavg_blue" class="hl">1.59</td>
+    </tr>
+    </tbody>
+</table>
+<table id="tbl_285427" class="tblData" cellpadding="0" cellspacing="0">
+    <tbody>
+    <tr class="tblLabel">
+        <td colspan="10">
+            <div class="label over" id="tbl_285427_label"><a href="javascript:callSeekToFight(2);">WATCH THIS FIGHT</a>
+            </div>
+        </td>
+    </tr>
+    <tr class="tblHeader">
+        <th class="lblEmpty">&nbsp;</th>
+        <th class="lblName">FIGHTERS</th>
+        <th class="lblslpm">SLpM</th>
+        <th class="lblstracc">STR.ACC.</th>
+        <th class="lblsapm">SApM</th>
+        <th class="lblstrdef">STR.DEF.</th>
+        <th class="lbltdavg">TD AVG.</th>
+        <th class="lbltdacc">TD ACC.</th>
+        <th class="lbltddef">TD DEF.</th>
+        <th class="lblsubavg">SUB.AVG.</th>
+    </tr>
+    <tr class="tblContent">
+        <td class="image"><a href="http://www.ufc.com/fighter/Ronaldo-Souza" target="_blank" class="playerThumb"
+                             style="background: url(http://media.ufc.tv/generated_images_sorted/Fighter/Ronaldo-Souza//Ronaldo-Souza_241887_small_thumbnail.png) -1px -1px no-repeat;"></a>
+        </td>
+        <td><a href="http://www.ufc.com/fighter/Ronaldo-Souza" target="_blank" class="name"><span>Ronaldo</span><span>Souza</span></a>
+            <div class="score"><span id="tbl_285427_wld_red">22-3-0</span>(W-L-D)</div>
+        </td>
+        <td id="tbl_285427_slpm_red">2.2</td>
+        <td id="tbl_285427_stracc_red">43%</td>
+        <td id="tbl_285427_sapm_red">1.94</td>
+        <td id="tbl_285427_strdef_red" class="hl">66%</td>
+        <td id="tbl_285427_tdavg_red" class="hl">3.72</td>
+        <td id="tbl_285427_tdacc_red" class="hl">48%</td>
+        <td id="tbl_285427_tddef_red">55%</td>
+        <td id="tbl_285427_subavg_red" class="hl">2.14</td>
+    </tr>
+    <tr class="tblContent">
+        <td class="image"><a href="http://www.ufc.com/fighter/Yoel-Romero" target="_blank" class="playerThumb"
+                             style="background: url(http://media.ufc.tv/generated_images_sorted/Fighter/Yoel-Romero//Yoel-Romero_242524_small_thumbnail.png) -1px -1px no-repeat;"></a>
+        </td>
+        <td><a href="http://www.ufc.com/fighter/Yoel-Romero" target="_blank"
+               class="name"><span>Yoel</span><span>Romero</span></a>
+            <div class="score"><span id="tbl_285427_wld_blue">10-1-0</span>(W-L-D)</div>
+        </td>
+        <td id="tbl_285427_slpm_blue" class="hl">3.51</td>
+        <td id="tbl_285427_stracc_blue" class="hl">56%</td>
+        <td id="tbl_285427_sapm_blue" class="hl">2.13</td>
+        <td id="tbl_285427_strdef_blue">65%</td>
+        <td id="tbl_285427_tdavg_blue">2.23</td>
+        <td id="tbl_285427_tdacc_blue">37%</td>
+        <td id="tbl_285427_tddef_blue" class="hl">71%</td>
+        <td id="tbl_285427_subavg_blue">0</td>
+    </tr>
+    </tbody>
+</table>
+<table id="tbl_285494" class="tblData" cellpadding="0" cellspacing="0">
+    <tbody>
+    <tr class="tblLabel">
+        <td colspan="10">
+            <div class="label over" id="tbl_285494_label"><a href="javascript:callSeekToFight(1);">WATCH THIS FIGHT</a>
+            </div>
+        </td>
+    </tr>
+    <tr class="tblHeader">
+        <th class="lblEmpty">&nbsp;</th>
+        <th class="lblName">FIGHTERS</th>
+        <th class="lblslpm">SLpM</th>
+        <th class="lblstracc">STR.ACC.</th>
+        <th class="lblsapm">SApM</th>
+        <th class="lblstrdef">STR.DEF.</th>
+        <th class="lbltdavg">TD AVG.</th>
+        <th class="lbltdacc">TD ACC.</th>
+        <th class="lbltddef">TD DEF.</th>
+        <th class="lblsubavg">SUB.AVG.</th>
+    </tr>
+    <tr class="tblContent">
+        <td class="image"><a href="http://www.ufc.com/fighter/Demian-Maia" target="_blank" class="playerThumb"
+                             style="background: url(http://media.ufc.tv/generated_images_sorted/Fighter/Demian-Maia//Demian-Maia_546_small_thumbnail.png) -1px -1px no-repeat;"></a>
+        </td>
+        <td><a href="http://www.ufc.com/fighter/Demian-Maia" target="_blank"
+               class="name"><span>Demian</span><span>Maia</span></a>
+            <div class="score"><span id="tbl_285494_wld_red">21-6-0</span>(W-L-D)</div>
+        </td>
+        <td id="tbl_285494_slpm_red">1.79</td>
+        <td id="tbl_285494_stracc_red">42%</td>
+        <td id="tbl_285494_sapm_red">1.77</td>
+        <td id="tbl_285494_strdef_red" class="hl">63%</td>
+        <td id="tbl_285494_tdavg_red" class="hl">3.01</td>
+        <td id="tbl_285494_tdacc_red">32%</td>
+        <td id="tbl_285494_tddef_red" class="hl">68%</td>
+        <td id="tbl_285494_subavg_red">1.2</td>
+    </tr>
+    <tr class="tblContent">
+        <td class="image"><a href="http://www.ufc.com/fighter/Gunnar-Nelson" target="_blank" class="playerThumb"
+                             style="background: url(http://media.ufc.tv/generated_images_sorted/Fighter/Gunnar-Nelson//Gunnar-Nelson_284814_small_thumbnail.png) -1px -1px no-repeat;"></a>
+        </td>
+        <td><a href="http://www.ufc.com/fighter/Gunnar-Nelson" target="_blank" class="name"><span>Gunnar</span><span>Nelson</span></a>
+            <div class="score"><span id="tbl_285494_wld_blue">14-1-1</span>(W-L-D)</div>
+        </td>
+        <td id="tbl_285494_slpm_blue" class="hl">2.28</td>
+        <td id="tbl_285494_stracc_blue" class="hl">56%</td>
+        <td id="tbl_285494_sapm_blue" class="hl">4.01</td>
+        <td id="tbl_285494_strdef_blue">55%</td>
+        <td id="tbl_285494_tdavg_blue">1.48</td>
+        <td id="tbl_285494_tdacc_blue" class="hl">55%</td>
+        <td id="tbl_285494_tddef_blue">50%</td>
+        <td id="tbl_285494_subavg_blue" class="hl">1.23</td>
+    </tr>
+    </tbody>
+</table>
+<table id="tbl_285491" class="tblData" cellpadding="0" cellspacing="0">
+    <tbody>
+    <tr class="tblLabel">
+        <td colspan="10">
+            <div class="label over" id="tbl_285491_label"><a href="javascript:callSeekToFight(0);">WATCH THIS FIGHT</a>
+            </div>
+        </td>
+    </tr>
+    <tr class="tblHeader">
+        <th class="lblEmpty">&nbsp;</th>
+        <th class="lblName">FIGHTERS</th>
+        <th class="lblslpm">SLpM</th>
+        <th class="lblstracc">STR.ACC.</th>
+        <th class="lblsapm">SApM</th>
+        <th class="lblstrdef">STR.DEF.</th>
+        <th class="lbltdavg">TD AVG.</th>
+        <th class="lbltdacc">TD ACC.</th>
+        <th class="lbltddef">TD DEF.</th>
+        <th class="lblsubavg">SUB.AVG.</th>
+    </tr>
+    <tr class="tblContent">
+        <td class="image"><a href="http://www.ufc.com/fighter/Max-Holloway" target="_blank" class="playerThumb"
+                             style="background: url(http://media.ufc.tv/generated_images_sorted/Fighter/Max-Holloway//Max-Holloway_235332_small_thumbnail.png) -1px -1px no-repeat;"></a>
+        </td>
+        <td><a href="http://www.ufc.com/fighter/Max-Holloway" target="_blank" class="name"><span>Max</span><span>Holloway</span></a>
+            <div class="score"><span id="tbl_285491_wld_red">14-3-0</span>(W-L-D)</div>
+        </td>
+        <td id="tbl_285491_slpm_red" class="hl">5.67</td>
+        <td id="tbl_285491_stracc_red">42%</td>
+        <td id="tbl_285491_sapm_red" class="hl">3.77</td>
+        <td id="tbl_285491_strdef_red" class="hl">69%</td>
+        <td id="tbl_285491_tdavg_red">0.11</td>
+        <td id="tbl_285491_tdacc_red" class="hl">50%</td>
+        <td id="tbl_285491_tddef_red" class="hl">79%</td>
+        <td id="tbl_285491_subavg_red">0.53</td>
+    </tr>
+    <tr class="tblContent">
+        <td class="image"><a href="http://www.ufc.com/fighter/Jeremy-Stephens" target="_blank" class="playerThumb"
+                             style="background: url(http://media.ufc.tv/generated_images_sorted/Fighter/Jeremy-Stephens//Jeremy-Stephens_473_small_thumbnail.png) -1px -1px no-repeat;"></a>
+        </td>
+        <td><a href="http://www.ufc.com/fighter/Jeremy-Stephens" target="_blank" class="name"><span>Jeremy</span><span>Stephens</span></a>
+            <div class="score"><span id="tbl_285491_wld_blue">24-11-0</span>(W-L-D)</div>
+        </td>
+        <td id="tbl_285491_slpm_blue">2.75</td>
+        <td id="tbl_285491_stracc_blue" class="hl">44%</td>
+        <td id="tbl_285491_sapm_blue">2.48</td>
+        <td id="tbl_285491_strdef_blue">62%</td>
+        <td id="tbl_285491_tdavg_blue" class="hl">1.58</td>
+        <td id="tbl_285491_tdacc_blue">45%</td>
+        <td id="tbl_285491_tddef_blue">64%</td>
+        <td id="tbl_285491_subavg_blue">0.53</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
