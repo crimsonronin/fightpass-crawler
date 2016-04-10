@@ -20,6 +20,7 @@ describe('HTML entry mapper', () => {
 
         entry.title.should.eql('Invicta FC 16: Jennifer Maia Backstage Interview');
         entry.description.should.eql('Jennifer Maia spoke with UFC FIGHT PASS after becoming the interim flyweight champion at Invicta FC 16.');
+        entry.date.format().should.eql('2016-03-12T01:56:00+11:00');
         entry.keywords.length.should.eql(2);
         entry.keywords[0].should.eql('Invicta FC 16');
         entry.keywords[1].should.eql('Jennifer Maia');
